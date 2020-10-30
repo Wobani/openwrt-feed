@@ -1,0 +1,68 @@
+Package: libatomic
+Version: 7.3.0-2
+Depends: libgcc
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Size: 5248
+Filename: libatomic_7.3.0-2_mipsel_24kc.ipk
+Size: 5969
+SHA256sum: c1662f1addd1ebe253eb6b2bca6fe4f38c23e04dab940284862abd472e02a3ba
+Description:  Atomic support library
+
+Package: libgcc
+Version: 7.3.0-2
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Size: 34139
+Filename: libgcc_7.3.0-2_mipsel_24kc.ipk
+Size: 34908
+SHA256sum: 2166fa3b06d4cf91c30e28a581196efdb7cdcc1cc85b866b1452ad21e9d85314
+Description:  GCC support library
+
+Package: libpthread
+Version: 1.1.19-2
+Depends: libgcc
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Size: 118
+Filename: libpthread_1.1.19-2_mipsel_24kc.ipk
+Size: 858
+SHA256sum: a6ec6c04dcc4307e7cebc82997fc9cfbbd9744944e2a49830319234f3f4d5ec2
+Description:  POSIX thread library
+
+Package: librt
+Version: 1.1.19-2
+Depends: libpthread
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Size: 118
+Filename: librt_1.1.19-2_mipsel_24kc.ipk
+Size: 864
+SHA256sum: d50ee093c43bc7b1a4c6c981db758336b78fc1564de7f4597f0a5cb94826fb21
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: 7.3.0-2
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Size: 367362
+Filename: libstdcpp_7.3.0-2_mipsel_24kc.ipk
+Size: 366227
+SHA256sum: be963edcfaf3cd4a6ad6ded7f3616a332d6de05619a2eac91dd26d255656c15c
+Description:  GNU Standard C++ Library v3
+
